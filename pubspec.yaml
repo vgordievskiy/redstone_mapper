@@ -6,7 +6,8 @@ homepage: http://redstonedart.org
 environment:
   sdk: '>=1.9.0-dev.9.1 <2.0.0'
 dependencies:
-  redstone: any
+  redstone:
+    git: https://github.com/vgordievskiy/redstone.git
   analyzer: any
   code_transformers: any
 dev_dependencies:
