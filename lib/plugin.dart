@@ -1,6 +1,6 @@
 library redstone_mapper_plugin;
 
-import 'package:redstone/redstone.dart';
+import 'package:redstone/server.dart';
 import 'package:shelf/shelf.dart' as shelf;
 import 'package:di/di.dart';
 
