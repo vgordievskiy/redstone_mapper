@@ -7,7 +7,9 @@ environment:
   sdk: '>=1.9.0-dev.9.1 <2.0.0'
 dependencies:
   redstone:
-    git: https://github.com/vgordievskiy/redstone.git
+    git:
+      url: https://github.com/vgordievskiy/redstone.git
+      ref: new_shelf
   analyzer: any
   code_transformers: any
 dev_dependencies:
